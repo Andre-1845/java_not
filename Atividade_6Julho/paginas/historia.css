@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+#pagina{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.boxInt{
+    display: flex;
+    width: 100%;
+    height: fit-content;    
+    align-items: center;
+}
+
+
+
+#titulo{
+    background-color: black;
+    color: yellow;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto {
+    background-color: rgb(186, 197, 186);
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 40px;
+}
+
+#galeria{
+    width: 30%;
+    height: 50px;
+    background-color:white;
+    align-items: center;
+    align-content: center;
+    padding: 5px 0px;
+    border: 10px double black;
+        
+}
+
+#fotos{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 65%;
+    height: 250px;
+    align-items: center;
+    background-image: url(../Imagens/historia1.jpg);
+    
+
+}
+ #voltar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border: 3px double white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+ }

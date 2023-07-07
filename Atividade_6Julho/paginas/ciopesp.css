@@ -1,0 +1,77 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+    
+}
+
+#pagina{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.box{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+#titulo{
+    background-color: black;
+    color: yellow;
+    width: 90%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#texto {
+    background-color: rgb(186, 197, 186);
+    width: 85%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    padding: 34px;
+}
+
+#galeria{
+    width: 90%;
+    height: 50px;
+    background-color:white;
+    align-items: center;
+    padding: 5px 0px;
+    
+}
+
+#fotos{
+    display: flex;
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 65%;
+    height: 250px;
+    align-items: center;
+    background-image: url(../Imagens/CIOPESP.jpg);
+    
+
+}
+ #voltar{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border: 3px double white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+ }
